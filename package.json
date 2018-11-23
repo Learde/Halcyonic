@@ -1,0 +1,27 @@
+{
+  "name": "halcyonic",
+  "version": "1.0.0",
+  "description": "Repeat website",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learde/Halcyonic.git"
+  },
+  "keywords": [
+    "Halcyonic"
+  ],
+  "author": "Learde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Learde/Halcyonic/issues"
+  },
+  "homepage": "https://github.com/Learde/Halcyonic#readme"
+}
