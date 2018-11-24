@@ -1,0 +1,111 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  color: #474f51; }
+
+.heading-primary {
+  color: #fff;
+  backface-visibility: hidden;
+  font-size: 4.95rem;
+  font-weight: 300; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-top-big {
+  margin-top: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-top: 10rem !important; }
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+.header {
+  height: 14rem;
+  background-image: url(../img/bg01.jpg);
+  background-repeat: repeat-x; }
+  .header__content {
+    width: 120rem;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75); }
+  .header__logo:link, .header__logo:visited {
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%); }
+  .header__logo:hover, .header__logo:active {
+    color: #fff; }
+  .header__navigation {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%); }
+  .header__list {
+    list-style-type: none;
+    font-size: 2.52rem;
+    font-weight: 200; }
+  .header__link {
+    float: left; }
+    .header__link:not(:first-child) {
+      margin-left: 6rem; }
+    .header__link a:link,
+    .header__link a:visited {
+      color: #c6c8c8;
+      text-decoration: none;
+      transition: .1s; }
+    .header__link a:hover,
+    .header__link a:active {
+      color: #f6f8f8; }
