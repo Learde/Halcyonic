@@ -1,0 +1,14 @@
+.banner {
+    display: inline-block;
+    background-image: url(../img/bg04.png);
+    background-color: $color-white;
+    background-repeat: repeat;
+    padding: 1rem 1rem 0 1rem;
+    box-shadow: 3px 3px 3px 1px rgba($color-black, 0.15);
+
+    &__img {
+        display: inline-block;
+        width: auto;
+        height: 100%;
+    }
+}

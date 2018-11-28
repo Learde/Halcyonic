@@ -1,14 +1,22 @@
 .header {
-    height: 14rem;
+    height: auto;
     background-image: url(../img/bg01.jpg);
     background-repeat: repeat-x;
+    text-shadow: -1px -1px 1px rgba($color-black, 0.75);
 
     &__content {
-        width: $default-content-width;
-        margin: 0 auto;
         position: relative;
-        height: 100%;
-        text-shadow: -1px -1px 1px rgba($color-black, 0.75);
+        height: 14rem;
+    }
+
+    &__banner {
+        border-top: solid 1px $color-dark-grey;
+        box-shadow: inset 0px 1px 0px 0px $color-grey-2;
+        max-width: 100vw;
+    }
+
+    & .row {
+        margin-bottom: 0;
     }
 
     &__logo {
@@ -59,5 +67,13 @@
         & a:active {
             color: #f6f8f8;
         }
+    }
+
+    &__banner {
+        padding: 3.5rem 0;
+    }
+
+    & .heading-secondary {
+        margin-bottom: 3.6rem;
     }
 }

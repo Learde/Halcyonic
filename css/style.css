@@ -15,6 +15,7 @@ body {
 
 body {
   font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 1.8rem;
   font-weight: 300;
   line-height: 1.7;
   color: #474f51; }
@@ -24,6 +25,13 @@ body {
   backface-visibility: hidden;
   font-size: 4.95rem;
   font-weight: 300; }
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 200;
+  line-height: 4.5rem;
+  color: #fff;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75); }
 
 .u-center-text {
   text-align: center !important; }
@@ -43,8 +51,41 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
+.banner {
+  display: inline-block;
+  background-image: url(../img/bg04.png);
+  background-color: #fff;
+  background-repeat: repeat;
+  padding: 1rem 1rem 0 1rem;
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15); }
+  .banner__img {
+    display: inline-block;
+    width: auto;
+    height: 100%; }
+
+.btn:link, .btn:visited {
+  display: inline-block;
+  padding: 0.5rem 4.5rem;
+  outline: 0;
+  border-radius: 10px;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(237, 57, 27, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(top, #ed391b, #ce1a00);
+  background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
+  background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
+  background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
+  color: #fff;
+  font-size: 3.15rem;
+  text-decoration: none; }
+
+.btn:hover {
+  color: #fff; }
+
+.btn:active {
+  color: #fff; }
+
 .row {
-  max-width: 114rem;
+  max-width: 120rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -70,15 +111,19 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .header {
-  height: 14rem;
+  height: auto;
   background-image: url(../img/bg01.jpg);
-  background-repeat: repeat-x; }
+  background-repeat: repeat-x;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75); }
   .header__content {
-    width: 120rem;
-    margin: 0 auto;
     position: relative;
-    height: 100%;
-    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75); }
+    height: 14rem; }
+  .header__banner {
+    border-top: solid 1px #222628;
+    box-shadow: inset 0px 1px 0px 0px #3e484a;
+    max-width: 100vw; }
+  .header .row {
+    margin-bottom: 0; }
   .header__logo:link, .header__logo:visited {
     text-decoration: none;
     color: #fff;
@@ -109,3 +154,10 @@ body {
     .header__link a:hover,
     .header__link a:active {
       color: #f6f8f8; }
+  .header__banner {
+    padding: 3.5rem 0; }
+  .header .heading-secondary {
+    margin-bottom: 3.6rem; }
+
+.section-about {
+  background-image: url(../img/bg01.jpg); }
