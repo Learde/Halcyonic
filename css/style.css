@@ -51,14 +51,14 @@ body {
 .u-margin-top-huge {
   margin-top: 10rem !important; }
 
-.banner {
+.border-image {
   display: inline-block;
   background-image: url(../img/bg04.png);
   background-color: #fff;
   background-repeat: repeat;
   padding: 1rem 1rem 0 1rem;
   box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.15); }
-  .banner__img {
+  .border-image__img {
     display: inline-block;
     width: auto;
     height: 100%; }
@@ -89,7 +89,7 @@ body {
   max-width: 120rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 0rem; }
   .row::after {
     content: "";
     display: table;
