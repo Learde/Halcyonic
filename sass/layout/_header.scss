@@ -2,6 +2,9 @@
     height: auto;
     background-image: url(../img/bg01.jpg);
     background-repeat: repeat-x;
+
+    border-bottom: solid 1px $color-dark-grey-2;
+    box-shadow: inset 0px -1px 0px 0px $color-grey-3;
     text-shadow: -1px -1px 1px rgba($color-black, 0.75);
 
     &__content {
@@ -58,14 +61,14 @@
 
         & a:link,
         & a:visited {
-            color: #c6c8c8;
+            color: $color-grey-light;
             text-decoration: none;
             transition: .1s;
         }
 
         & a:hover,
         & a:active {
-            color: #f6f8f8;
+            color: $color-grey-light-2;
         }
     }
 

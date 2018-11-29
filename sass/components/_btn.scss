@@ -8,14 +8,11 @@
         border-radius: 10px;
         box-shadow: inset 0px 0px 0px 1px rgba($color-black, 0.75),
                     inset 0px 2px 0px 0px rgba($color-pink, 0.5),
-                    inset 0px 0px 0px 2px rgba($color-red, 0.85),
+                    inset 0px 0px 0px 2px rgba($color-red-light, 0.85),
                     3px 3px 3px 1px rgba($color-black, 0.15);
         text-shadow: -1px -1px 1px rgba($color-black, 0.5);
     
-        background-image: linear-gradient(top, $color-red, $color-red-2);
-        background-image: -moz-linear-gradient(top, $color-red, $color-red-2);
-        background-image: -webkit-linear-gradient(top, $color-red, $color-red-2);
-        background-image: -ms-linear-gradient(top, $color-red, $color-red-2);
+        background-image: linear-gradient(to top, $color-red-2, $color-red);
 
         color: $color-white;
         font-size: 3.15rem;
@@ -24,9 +21,19 @@
 
     &:hover {
         color: $color-white;
+        box-shadow: inset 0px 0px 0px 1px rgba($color-black, 0.75),
+                    inset 0px 2px 0px 0px rgba($color-pink, 0.5),
+                    inset 0px 0px 0px 2px rgba($color-red-light, 0.85),
+                    3px 3px 3px 1px rgba($color-black, 0.15);
+        background-image: linear-gradient(to top, $color-red-4, $color-red-3);
     }
 
     &:active {
         color: $color-white;
+        box-shadow: inset 0px 0px 0px 1px rgba($color-black, 0.75),
+                    inset 0px 2px 0px 0px rgba($color-pink, 0.5),
+                    inset 0px 0px 0px 2px rgba($color-red-light, 0.85),
+                    3px 3px 3px 1px rgba($color-black, 0.15);
+        background-image: linear-gradient(to top, $color-red, $color-red-2);
     }
 }

@@ -68,21 +68,22 @@ body {
   padding: 0.5rem 4.5rem;
   outline: 0;
   border-radius: 10px;
-  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(237, 57, 27, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.5);
-  background-image: linear-gradient(top, #ed391b, #ce1a00);
-  background-image: -moz-linear-gradient(top, #ed391b, #ce1a00);
-  background-image: -webkit-linear-gradient(top, #ed391b, #ce1a00);
-  background-image: -ms-linear-gradient(top, #ed391b, #ce1a00);
+  background-image: linear-gradient(to top, #ce1a00, #ed391b);
   color: #fff;
   font-size: 3.15rem;
   text-decoration: none; }
 
 .btn:hover {
-  color: #fff; }
+  color: #fff;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(to top, #de2a10, #fd492b); }
 
 .btn:active {
-  color: #fff; }
+  color: #fff;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.75), inset 0px 2px 0px 0px rgba(255, 192, 192, 0.5), inset 0px 0px 0px 2px rgba(255, 96, 96, 0.85), 3px 3px 3px 1px rgba(0, 0, 0, 0.15);
+  background-image: linear-gradient(to top, #ed391b, #ce1a00); }
 
 .row {
   max-width: 120rem;
@@ -114,6 +115,8 @@ body {
   height: auto;
   background-image: url(../img/bg01.jpg);
   background-repeat: repeat-x;
+  border-bottom: solid 1px #272d30;
+  box-shadow: inset 0px -1px 0px 0px #51575a;
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75); }
   .header__content {
     position: relative;
