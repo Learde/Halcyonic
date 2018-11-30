@@ -1,0 +1,27 @@
+.content-card {
+    background-color: $color-white;
+    padding: 4rem 3rem 4.5rem 3rem;
+    margin: 4.5rem 0;
+    box-shadow: 2px 2px 2px 1px rgba($color-dark-grey-3, 0.1);
+
+    &__primary-heading {
+        color: $color-grey-5;
+        font-size: 3.24rem;
+        font-weight: 300;
+        margin-bottom: 0.41rem;
+    }
+
+    &__secondary-heading {
+        color: $color-blue-grey;
+        font-size: 2.25rem;
+        font-weight: 300;
+        margin-bottom: 3.6rem;
+    }
+
+    &__img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3.6rem;
+    }
+}

@@ -102,6 +102,27 @@ body {
   .card__link:hover, .card__link:active {
     text-decoration: none; }
 
+.content-card {
+  background-color: #fff;
+  padding: 4rem 3rem 4.5rem 3rem;
+  margin: 4.5rem 0;
+  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1); }
+  .content-card__primary-heading {
+    color: #373f42;
+    font-size: 3.24rem;
+    font-weight: 300;
+    margin-bottom: 0.41rem; }
+  .content-card__secondary-heading {
+    color: #96a9b5;
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: 3.6rem; }
+  .content-card__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.6rem; }
+
 .row {
   max-width: 120rem;
   margin: 0 auto; }
@@ -179,7 +200,13 @@ body {
   .header .heading-secondary {
     margin-bottom: 3.6rem; }
 
+body {
+  background: #D4D9DD url("../img/bg03.jpg"); }
+
 .section-features {
   background: #353D40 url("../img/bg02.jpg");
   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.75);
   color: #a0a8ab; }
+
+.section-content {
+  background: #f7f7f7 url("../img/bg04.png"); }

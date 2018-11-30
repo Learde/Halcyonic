@@ -1,5 +1,13 @@
+body {
+    background: $color-grey-light-4 url("../img/bg03.jpg");
+}
+
 .section-features {
     background: $color-grey-4 url("../img/bg02.jpg");
     text-shadow: -1px -1px 1px rgba($color-black, 0.75);
     color: $color-grey-light-3;
+}
+
+.section-content {
+    background: $color-grey-light-5 url("../img/bg04.png");
 }
