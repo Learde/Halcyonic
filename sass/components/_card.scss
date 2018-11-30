@@ -1,0 +1,33 @@
+.card {
+    padding: 4.5rem 0;
+
+    &__image {
+        margin-bottom: 2.7rem;
+    }
+
+    &__heading {
+        font-size: 22.5px;
+        font-weight: 300;
+        color: $color-white;
+        margin-bottom: 0.56rem;
+    }
+
+    &__paragraph {
+        &--white {
+            color: $color-white;
+        }
+    }
+
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: underline;
+            color: $color-white;
+        }
+
+        &:hover,
+        &:active {
+            text-decoration: none;
+        }
+    }
+}

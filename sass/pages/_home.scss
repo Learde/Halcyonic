@@ -1,3 +1,5 @@
-.section-about {
-    background-image: url(../img/bg01.jpg);
+.section-features {
+    background: $color-grey-4 url("../img/bg02.jpg");
+    text-shadow: -1px -1px 1px rgba($color-black, 0.75);
+    color: $color-grey-light-3;
 }
