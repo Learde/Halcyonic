@@ -3,7 +3,7 @@
     padding: 4rem 3rem 4.5rem 3rem;
     margin: 4.5rem 0;
     box-shadow: 2px 2px 2px 1px rgba($color-dark-grey-3, 0.1);
-    height: 50.3867rem;
+    max-height: 50rem;
 
     &__primary-heading {
         color: $color-grey-5;
@@ -33,11 +33,6 @@
     }
     
     &__item {
-        padding-left: 4.5rem;
-        background-image: url("../img/icon-checkmark.png");
-        background-repeat: no-repeat;
-        background-position-y: 2.26833rem;
-
         &:not(:first-child) {
             padding-top: calc(2rem*0.7);
         }
@@ -47,8 +42,25 @@
             border-bottom: solid 1px $color-grey-light-6;
         }
 
-        &:first-child {
-            background-position-y: 6.48333px;
+        &--check {
+            padding-left: 4.5rem;
+            background-image: url("../img/icon-checkmark.png");
+            background-repeat: no-repeat;
+            background-position-y: 2.26833rem;
+
+            &:first-child {
+                background-position-y: 6.48333px;
+            }
+        }
+
+        &--quote {
+            &:not(:first-child) {
+                padding-top: calc(2.5rem*0.7);
+            }
+    
+            &:not(:last-child) {
+                padding-bottom: calc(2.5rem*0.7);
+            }
         }
     }
 }
