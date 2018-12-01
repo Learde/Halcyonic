@@ -106,7 +106,8 @@ body {
   background-color: #fff;
   padding: 4rem 3rem 4.5rem 3rem;
   margin: 4.5rem 0;
-  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1); }
+  box-shadow: 2px 2px 2px 1px rgba(128, 128, 128, 0.1);
+  height: 50.3867rem; }
   .content-card__primary-heading {
     color: #373f42;
     font-size: 3.24rem;
@@ -122,6 +123,22 @@ body {
     width: 100%;
     height: auto;
     margin-bottom: 3.6rem; }
+  .content-card__list {
+    list-style-type: none;
+    font-size: 2.16rem;
+    line-height: 3.33rem; }
+  .content-card__item {
+    padding-left: 4.5rem;
+    background-image: url("../img/icon-checkmark.png");
+    background-repeat: no-repeat;
+    background-position-y: 2.26833rem; }
+    .content-card__item:not(:first-child) {
+      padding-top: calc(2rem*0.7); }
+    .content-card__item:not(:last-child) {
+      padding-bottom: calc(2rem*0.7);
+      border-bottom: solid 1px #e2e6e8; }
+    .content-card__item:first-child {
+      background-position-y: 6.48333px; }
 
 .row {
   max-width: 120rem;
