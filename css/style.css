@@ -197,7 +197,7 @@ body {
   .footer__link:hover, .footer__link:active {
     text-decoration: none; }
   .footer__copyright-section {
-    width: 100vw;
+    width: 100%;
     border-top: solid 1px #b5bec3;
     box-shadow: inset 0px 1px 0px 0px #e0e4e7; }
   .footer__copyright {
